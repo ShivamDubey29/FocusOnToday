@@ -1,0 +1,40 @@
+body{
+    background-color: #48A30012;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+main{
+    padding: 0 16px;
+}
+
+.title{
+    font-size: 64px;
+    color:#48A300;
+    text-align: center;
+}
+.title span{
+    color:#61481C;
+}
+.app-container{
+    background-color: #FBFBFB;
+    max-width: 660px;
+    margin-inline: auto;
+    border-radius: 15px;
+    padding: 32px 48px;
+    box-shadow: 0 0 8px 0px rgb(0,0,0,0.2) ;
+}
+
+.sun-icon{
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+@media(max-width: 768px){
+    .title {
+        font-size: 32px;
+    }
+    .app-container{
+        padding: 16px 32px;
+
+    }
+}
