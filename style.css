@@ -29,6 +29,51 @@ main{
     margin-left: 16px;
 }
 
+.progress-label{
+font-size: 14px;
+color: #858585;
+margin-bottom: 18px;
+}
+
+.progress-bar{
+    height: 30px;
+    background-color: #48A3001A;
+    border-radius: 15px;
+}
+.progress-value{
+    height: 100%;
+    width: 40%;
+    background-color: #48A300;
+    border-radius: 15px;
+    font: 10px;
+    font-weight: 500px;
+    color: #EEFFE0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.error-label{
+    font-size: 14px;
+    color: #FF5151;
+
+}
+.goal-container{
+border: 1px solid #0000001A;
+border-radius: 17px;
+height: 82px;
+display: flex;
+align-items: center;
+padding: 0 22px;
+
+}
+
+.custom-checkbox{
+    height:24px;
+    width:24px;
+    border: 2px solid rgba(97,72,28,0.3);
+    border-radius: 50%;
+}
+
 @media(max-width: 768px){
     .title {
         font-size: 32px;
