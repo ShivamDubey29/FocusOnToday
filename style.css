@@ -47,7 +47,7 @@ margin-bottom: 18px;
 }
 .progress-value{
     height: 100%;
-    width: 40%;
+    width: 0;
     background-color: #48A300;
     border-radius: 15px;
     font: 10px;
@@ -55,8 +55,14 @@ margin-bottom: 18px;
     color: #EEFFE0;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    /* visibility: hidden; */
     /* white-space: nowrap; */
+    overflow: hidden;
+    
+}
+.progress-value span{
+    padding: 20px;
 }
 .error-label{
     font-size: 12px;
@@ -64,6 +70,10 @@ margin-bottom: 18px;
     margin-top: 8px; 
     display:none
   
+}
+
+.show-error .error-label{
+     display: block;
 }
 .goal-container{
 border: 1px solid #0000001A;
@@ -159,6 +169,7 @@ margin-bottom: 42px;
     }
     .progress-value{
         white-space: nowrap;
+        
     }
     .progress-bar{
         height:24px;
