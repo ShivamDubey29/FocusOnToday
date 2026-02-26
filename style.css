@@ -59,10 +59,11 @@ margin-bottom: 18px;
     /* visibility: hidden; */
     /* white-space: nowrap; */
     overflow: hidden;
-    
+    transition: width 0.2s ease-in-out;
 }
 .progress-value span{
     padding: 20px;
+   min-width: max-content;
 }
 .error-label{
     font-size: 12px;
