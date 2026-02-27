@@ -90,6 +90,8 @@
 // })
 
 
+
+//The below code will automatically reset the entered value after 24 hiurs 
 // ✅ 24 Hour Reset Logic (Added)
 const savedTime = localStorage.getItem('goalsTimestamp')
 

@@ -30,7 +30,8 @@ main{
 
 .sun-icon{
     vertical-align: middle;
-    margin-left: 16px;
+    margin-left: 5px;
+    
 }
 
 .progress-label{
@@ -175,6 +176,10 @@ margin-bottom: 42px;
     .progress-bar{
         height:24px;
 
+    }
+
+    .sun-icon{
+        max-width: 33px;
     }
 
     
